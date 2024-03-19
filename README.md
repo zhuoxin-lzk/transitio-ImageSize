@@ -1,0 +1,2 @@
+- LiteLoaderQQNT(https://github.com/mo-jinran/LiteLoaderQQNT)
+- transitio(https://github.com/PRO-2684/transitio)
