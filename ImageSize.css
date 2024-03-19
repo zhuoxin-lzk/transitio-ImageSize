@@ -1,0 +1,25 @@
+/*限制图片和gif高度*/
+
+/*图片*/
+.image.pic-element.vue-component {
+    max-height: 150px !important;
+    width: 100% !important;
+}
+/*gif*/
+.image.pic-element.pic-element-gif.vue-component{
+    max-height: 150px !important;
+    width: 100% !important;
+}
+/*文件预览*/
+.msg-preview.file-element.vue-component {
+    max-height: 150px !important;
+    width: 100% !important;
+}
+/*.image.no-drag.vue-component {
+    max-height: 150px !important;
+    width: 100% !important;
+}
+.image-content {
+    max-height: 150px !important;
+    width: 100% !important;
+}*/
