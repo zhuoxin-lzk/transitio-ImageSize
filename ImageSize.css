@@ -12,7 +12,7 @@
     width: auto !important;
     display: inline-block !important;
 }
-/*文件预览*/
+/*图片文件预览*/
 .msg-preview.file-element.vue-component {
     max-height: 150px !important;
     width: 100% !important;
@@ -21,7 +21,9 @@
     max-height: 150px !important;
     width: 100% !important;
 }*/
-/*.image-content {
-    max-height: 150px !important;
-    width: auto !important;
-}*/
+.image-content {
+
+}
+.text-element.vue-component{
+    display: block !important;
+}
