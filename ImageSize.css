@@ -3,12 +3,14 @@
 /*图片*/
 .image.pic-element.vue-component {
     max-height: 150px !important;
-    width: 100% !important;
+    width: auto !important;
+    display: inline-block !important;
 }
 /*gif*/
 .image.pic-element.pic-element-gif.vue-component{
     max-height: 150px !important;
-    width: 100% !important;
+    width: auto !important;
+    display: inline-block !important;
 }
 /*文件预览*/
 .msg-preview.file-element.vue-component {
@@ -18,8 +20,8 @@
 /*.image.no-drag.vue-component {
     max-height: 150px !important;
     width: 100% !important;
-}
-.image-content {
+}*/
+/*.image-content {
     max-height: 150px !important;
-    width: 100% !important;
+    width: auto !important;
 }*/
