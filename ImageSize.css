@@ -1,29 +1,53 @@
 /*限制图片和gif高度*/
 
-/*图片*/
-.image.pic-element.vue-component {
+/*消息外层div*/
+.message-content.mix-message__inner.vue-component{
+
+}
+
+/*图片容器*/
+.image.pic-element.vue-component{
     max-height: 150px !important;
     width: auto !important;
     display: inline-block !important;
+    float: left !important;
+    clear: both !important;
 }
-/*gif*/
+/*gif容器*/
 .image.pic-element.pic-element-gif.vue-component{
     max-height: 150px !important;
     width: auto !important;
     display: inline-block !important;
+    float: left !important;
+    clear: both !important;
 }
-/*图片文件预览*/
+
+
+/*图片文件预览容器*/
 .msg-preview.file-element.vue-component {
     max-height: 150px !important;
-    width: 100% !important;
+    min-width: 0px !important;
+    width: auto !important;
 }
-/*.image.no-drag.vue-component {
+/*视频文件预览容器*/
+.msg-preview.msg-preview--video.video-element.vue-component{
     max-height: 150px !important;
-    width: 100% !important;
-}*/
-.image-content {
-
+    min-width: 0px !important;
+    width: auto !important;
 }
+/*我也不知道是什么*/
+.image.no-drag.vue-component{
+    max-height: 150px !important;
+    width: auto !important;
+}
+
+/*图片*/
+.image-content {
+    max-height: 150px !important;
+    width: auto !important;
+}
+/*文本*/
 .text-element.vue-component{
-    display: block !important;
+    float: left !important;
+    clear: both !important;
 }
