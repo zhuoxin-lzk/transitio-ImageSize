@@ -9,17 +9,13 @@
 .image.pic-element.vue-component{
     max-height: 150px !important;
     width: auto !important;
-    display: inline-block !important;
-    float: left !important;
-    clear: both !important;
+    display: flex !important;
 }
 /*gif容器*/
 .image.pic-element.pic-element-gif.vue-component{
     max-height: 150px !important;
     width: auto !important;
-    display: inline-block !important;
-    float: left !important;
-    clear: both !important;
+    display: flex !important;
 }
 
 
@@ -45,9 +41,4 @@
 .image-content {
     max-height: 150px !important;
     width: auto !important;
-}
-/*文本*/
-.text-element.vue-component{
-    float: left !important;
-    clear: both !important;
 }
